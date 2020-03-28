@@ -13,6 +13,8 @@
 		BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC97242FC3FE008D000C /* Main.storyboard */; };
 		BF62FC9B242FC3FF008D000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9A242FC3FF008D000C /* Assets.xcassets */; };
 		BF62FC9E242FC3FF008D000C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */; };
+		BF62FCA6242FC454008D000C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF62FCA5242FC454008D000C /* README.md */; };
+		BF62FCAF242FC663008D000C /* Bahrawy.png in Resources */ = {isa = PBXBuildFile; fileRef = BF62FCAE242FC663008D000C /* Bahrawy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BF62FC9A242FC3FF008D000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF62FC9D242FC3FF008D000C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF62FC9F242FC3FF008D000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF62FCA5242FC454008D000C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF62FCAE242FC663008D000C /* Bahrawy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bahrawy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,65 @@
 		BF62FC90242FC3FE008D000C /* The Artistry */ = {
 			isa = PBXGroup;
 			children = (
+				BF62FCAD242FC623008D000C /* Documentation */,
 				BF62FC91242FC3FE008D000C /* AppDelegate.swift */,
 				BF62FC93242FC3FE008D000C /* SceneDelegate.swift */,
 				BF62FC95242FC3FE008D000C /* ViewController.swift */,
-				BF62FC97242FC3FE008D000C /* Main.storyboard */,
-				BF62FC9A242FC3FF008D000C /* Assets.xcassets */,
-				BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */,
-				BF62FC9F242FC3FF008D000C /* Info.plist */,
+				BF62FCAB242FC4B8008D000C /* Controller */,
+				BF62FCAA242FC4B3008D000C /* View */,
+				BF62FCA9242FC4AC008D000C /* Model */,
+				BF62FCA8242FC4A4008D000C /* Resources */,
+				BF62FCAC242FC50E008D000C /* Supporting Files */,
+				BF62FCA5242FC454008D000C /* README.md */,
 			);
 			path = "The Artistry";
+			sourceTree = "<group>";
+		};
+		BF62FCA8242FC4A4008D000C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */,
+				BF62FC9A242FC3FF008D000C /* Assets.xcassets */,
+				BF62FC97242FC3FE008D000C /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF62FCA9242FC4AC008D000C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF62FCAA242FC4B3008D000C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF62FCAB242FC4B8008D000C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF62FCAC242FC50E008D000C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF62FC9F242FC3FF008D000C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF62FCAD242FC623008D000C /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				BF62FCAE242FC663008D000C /* Bahrawy.png */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +181,8 @@
 			files = (
 				BF62FC9E242FC3FF008D000C /* LaunchScreen.storyboard in Resources */,
 				BF62FC9B242FC3FF008D000C /* Assets.xcassets in Resources */,
+				BF62FCA6242FC454008D000C /* README.md in Resources */,
+				BF62FCAF242FC663008D000C /* Bahrawy.png in Resources */,
 				BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
