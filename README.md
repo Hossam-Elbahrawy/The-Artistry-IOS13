@@ -6,12 +6,9 @@ The Artistry is a mobile application that contains information about famous arti
 Built with IOS 13 & swift 5 using MVC Archticure.
 
 ## To-Do
-- [] Launch Screen
+- [x] Launch Screen
 - [] Home Screen
 - [] Details Screen
-
-## Screenshots
-### Landing Screen
 
 
 Support
