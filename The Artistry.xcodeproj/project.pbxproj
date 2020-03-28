@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,15 @@
 		BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC97242FC3FE008D000C /* Main.storyboard */; };
 		BF62FC9B242FC3FF008D000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9A242FC3FF008D000C /* Assets.xcassets */; };
 		BF62FC9E242FC3FF008D000C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */; };
+		BF7C8A8F242FD5C0002D23FF /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C8A8E242FD5C0002D23FF /* artists.json */; };
+		BF7C8A91242FF8C1002D23FF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C8A90242FF8C1002D23FF /* Artist.swift */; };
+		BF7C8A93242FF958002D23FF /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C8A92242FF958002D23FF /* Painting.swift */; };
+		D97AFC8D2E7393B06E516BDC /* Pods_The_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B46C92F5DE7C8F655A65E4 /* Pods_The_Artistry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D8B389F8E80210BE94595A4 /* Pods-The Artistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Artistry.debug.xcconfig"; path = "Target Support Files/Pods-The Artistry/Pods-The Artistry.debug.xcconfig"; sourceTree = "<group>"; };
+		7E534CA0199E80D4C7A74C32 /* Pods-The Artistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Artistry.release.xcconfig"; path = "Target Support Files/Pods-The Artistry/Pods-The Artistry.release.xcconfig"; sourceTree = "<group>"; };
 		BF62FC8E242FC3FE008D000C /* The Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Artistry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF62FC91242FC3FE008D000C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF62FC93242FC3FE008D000C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		BF62FC9A242FC3FF008D000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF62FC9D242FC3FF008D000C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF62FC9F242FC3FF008D000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7C8A8E242FD5C0002D23FF /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		BF7C8A90242FF8C1002D23FF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		BF7C8A92242FF958002D23FF /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		F5B46C92F5DE7C8F655A65E4 /* Pods_The_Artistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Artistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97AFC8D2E7393B06E516BDC /* Pods_The_Artistry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50BF5E1F14A585D6BBA312D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D8B389F8E80210BE94595A4 /* Pods-The Artistry.debug.xcconfig */,
+				7E534CA0199E80D4C7A74C32 /* Pods-The Artistry.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		596A205C9C41011E673E6DFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B46C92F5DE7C8F655A65E4 /* Pods_The_Artistry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF62FC85242FC3FE008D000C = {
 			isa = PBXGroup;
 			children = (
 				BF62FC90242FC3FE008D000C /* The Artistry */,
 				BF62FC8F242FC3FE008D000C /* Products */,
+				50BF5E1F14A585D6BBA312D1 /* Pods */,
+				596A205C9C41011E673E6DFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +101,7 @@
 		BF62FCA8242FC4A4008D000C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BF7C8A8E242FD5C0002D23FF /* artists.json */,
 				BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */,
 				BF62FC9A242FC3FF008D000C /* Assets.xcassets */,
 				BF62FC97242FC3FE008D000C /* Main.storyboard */,
@@ -81,6 +112,8 @@
 		BF62FCA9242FC4AC008D000C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF7C8A90242FF8C1002D23FF /* Artist.swift */,
+				BF7C8A92242FF958002D23FF /* Painting.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF62FCA2242FC3FF008D000C /* Build configuration list for PBXNativeTarget "The Artistry" */;
 			buildPhases = (
+				4974EEE6A42351A18DD6671E /* [CP] Check Pods Manifest.lock */,
 				BF62FC8A242FC3FE008D000C /* Sources */,
 				BF62FC8B242FC3FE008D000C /* Frameworks */,
 				BF62FC8C242FC3FE008D000C /* Resources */,
+				E8D328260523E7DC8F13EF0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,11 +202,54 @@
 			files = (
 				BF62FC9E242FC3FF008D000C /* LaunchScreen.storyboard in Resources */,
 				BF62FC9B242FC3FF008D000C /* Assets.xcassets in Resources */,
+				BF7C8A8F242FD5C0002D23FF /* artists.json in Resources */,
 				BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4974EEE6A42351A18DD6671E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-The Artistry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D328260523E7DC8F13EF0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Artistry/Pods-The Artistry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-The Artistry/Pods-The Artistry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-The Artistry/Pods-The Artistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF62FC8A242FC3FE008D000C /* Sources */ = {
@@ -180,6 +258,8 @@
 			files = (
 				BF62FC96242FC3FE008D000C /* ViewController.swift in Sources */,
 				BF62FC92242FC3FE008D000C /* AppDelegate.swift in Sources */,
+				BF7C8A93242FF958002D23FF /* Painting.swift in Sources */,
+				BF7C8A91242FF8C1002D23FF /* Artist.swift in Sources */,
 				BF62FC94242FC3FE008D000C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +402,7 @@
 		};
 		BF62FCA3242FC3FF008D000C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8B389F8E80210BE94595A4 /* Pods-The Artistry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -339,6 +420,7 @@
 		};
 		BF62FCA4242FC3FF008D000C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E534CA0199E80D4C7A74C32 /* Pods-The Artistry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,5 +1,5 @@
 
-# The Artistry IOS APP <img src="Documentation/bahrawy.png" alt="Logo" height="500px">
+# The Artistry IOS APP <img src="Documentation/Bahrawy.png" alt="Logo" height="500px">
 
 ## Introduction
 The Artistry is a mobile application that contains information about famous artists and their paintings. 

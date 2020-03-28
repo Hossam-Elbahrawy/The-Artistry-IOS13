@@ -1,0 +1,6 @@
+framework module Pods_The_Artistry {
+  umbrella header "Pods-The Artistry-umbrella.h"
+
+  export *
+  module * { export * }
+}
