@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF08C0442430040100E2C9DF /* ArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08C0432430040100E2C9DF /* ArtistsViewController.swift */; };
+		BF08C046243004CC00E2C9DF /* PaintingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */; };
 		BF62FC92242FC3FE008D000C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62FC91242FC3FE008D000C /* AppDelegate.swift */; };
 		BF62FC94242FC3FE008D000C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62FC93242FC3FE008D000C /* SceneDelegate.swift */; };
-		BF62FC96242FC3FE008D000C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62FC95242FC3FE008D000C /* ViewController.swift */; };
 		BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC97242FC3FE008D000C /* Main.storyboard */; };
 		BF62FC9B242FC3FF008D000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9A242FC3FF008D000C /* Assets.xcassets */; };
 		BF62FC9E242FC3FF008D000C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC9C242FC3FF008D000C /* LaunchScreen.storyboard */; };
@@ -22,10 +23,11 @@
 /* Begin PBXFileReference section */
 		6D8B389F8E80210BE94595A4 /* Pods-The Artistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Artistry.debug.xcconfig"; path = "Target Support Files/Pods-The Artistry/Pods-The Artistry.debug.xcconfig"; sourceTree = "<group>"; };
 		7E534CA0199E80D4C7A74C32 /* Pods-The Artistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Artistry.release.xcconfig"; path = "Target Support Files/Pods-The Artistry/Pods-The Artistry.release.xcconfig"; sourceTree = "<group>"; };
+		BF08C0432430040100E2C9DF /* ArtistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsViewController.swift; sourceTree = "<group>"; };
+		BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingsViewController.swift; sourceTree = "<group>"; };
 		BF62FC8E242FC3FE008D000C /* The Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Artistry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF62FC91242FC3FE008D000C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF62FC93242FC3FE008D000C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF62FC95242FC3FE008D000C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF62FC98242FC3FE008D000C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF62FC9A242FC3FF008D000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF62FC9D242FC3FF008D000C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,7 +90,6 @@
 			children = (
 				BF62FC91242FC3FE008D000C /* AppDelegate.swift */,
 				BF62FC93242FC3FE008D000C /* SceneDelegate.swift */,
-				BF62FC95242FC3FE008D000C /* ViewController.swift */,
 				BF62FCAB242FC4B8008D000C /* Controller */,
 				BF62FCAA242FC4B3008D000C /* View */,
 				BF62FCA9242FC4AC008D000C /* Model */,
@@ -121,6 +122,8 @@
 		BF62FCAA242FC4B3008D000C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF08C0432430040100E2C9DF /* ArtistsViewController.swift */,
+				BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF62FC96242FC3FE008D000C /* ViewController.swift in Sources */,
+				BF08C0442430040100E2C9DF /* ArtistsViewController.swift in Sources */,
 				BF62FC92242FC3FE008D000C /* AppDelegate.swift in Sources */,
+				BF08C046243004CC00E2C9DF /* PaintingsViewController.swift in Sources */,
 				BF7C8A93242FF958002D23FF /* Painting.swift in Sources */,
 				BF7C8A91242FF8C1002D23FF /* Artist.swift in Sources */,
 				BF62FC94242FC3FE008D000C /* SceneDelegate.swift in Sources */,
