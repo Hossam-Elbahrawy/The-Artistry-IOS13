@@ -8,8 +8,14 @@
 
 import Foundation
 
-struct Painting {
+class Painting {
     let title: String
     let info: String
-    let image: String
+    let imageUrl: String
+    
+    init(title:String, info:String,imageUrl:String) {
+        self.title = title
+        self.info = info
+        self.imageUrl = imageUrl
+    }
 }

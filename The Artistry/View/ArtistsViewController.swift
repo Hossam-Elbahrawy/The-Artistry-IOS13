@@ -10,12 +10,29 @@ import Foundation
 import UIKit
 
 class ArtistsViewController: UITableViewController{
+    var artists: [Artist] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("In Artists Screen")
-        
-        // Do any additional setup after loading the view.
+        artists = getArtists()
+      
     }
+    
+    
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return artists.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> ArtistTableViewCell {
+          let artist = artists[indexPath.row]
+              
+              let cell = tableView.dequeueReusableCell(withIdentifier: "artistCell") as! ArtistTableViewCell
+              cell.setArtist(artist: artist)
+              
+              return cell
+    }
+
 }
 

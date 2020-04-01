@@ -243,7 +243,7 @@ extension KingfisherWrapper where Base: WKInterfaceImage {
             result in
             switch result {
             case .success(let value):
-                completionHandler?(value.image, nil, value.cacheType, value.source.url)
+                completionHandler?(value.imageUrl, nil, value.cacheType, value.source.url)
             case .failure(let error):
                 completionHandler?(nil, error as NSError, .none, nil)
             }

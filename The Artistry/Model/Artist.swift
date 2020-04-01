@@ -11,7 +11,14 @@ import Foundation
 struct Artist {
     let name: String
     let bio: String
-    let image: String
-    let Works: [Painting]
+    let imageUrl: String
+    let works: [Painting]
     
+    
+    init(name: String, bio:String,imageUrl:String,works:[Painting]) {
+        self.name = name
+        self.bio = bio
+        self.imageUrl = imageUrl
+        self.works = works
+    }
 }
