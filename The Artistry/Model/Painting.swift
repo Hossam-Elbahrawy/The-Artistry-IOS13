@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Painting {
+class Painting: Decodable {
     let title: String
     let info: String
     let imageUrl: String

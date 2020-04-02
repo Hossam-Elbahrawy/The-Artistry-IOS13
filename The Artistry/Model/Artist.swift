@@ -8,7 +8,8 @@
 
 import Foundation
 
-struct Artist {
+struct Artist: Decodable {
+    
     let name: String
     let bio: String
     let imageUrl: String

@@ -5,14 +5,39 @@
 //  Created by Hossam Elbahrawy on 4/1/20.
 //  Copyright © 2020 Hossam Elbahrawy. All rights reserved.
 //
+import Foundation
 
 
 func getArtists()->[Artist]{
     var tempArtist:[Artist] = []
-    
-    let painting1 = Painting(title: "The starry Night", info: "This is the info of the image", imageUrl: "https://i1.wp.com/dreamingsophiabook.com/wp-content/uploads/2017/12/Guernica-1.jpg?resize=640%2C235")
-    let artist1 = Artist(name: "Hossam Gogh", bio: "This is the bio of me", imageUrl: "https://www.biography.com/.image/t_share/MTY2NTIzNTAyNjgwMDg5ODQy/pablo-picasso-at-his-home-in-cannes-circa-1960-photo-by-popperfoto_getty-images.jpg", works: [painting1])
-    
-    tempArtist.append(artist1)
+
+        tempArtist = parseJSON()
+ 
     return tempArtist
+}
+
+func parseJSON()->[Artist]{
+    
+    var artists: [Artist] = []
+    
+   if let path = Bundle.main.path(forResource: "artists", ofType: "json") {
+        do {
+              let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+              let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+              if let jsonResult = jsonResult as? Dictionary<String, AnyObject>, let jsonArtists = jsonResult["artists"] as? [Dictionary<String,Any>] {
+                for jsonArtist in jsonArtists{
+                    let paintings = jsonArtist["works"]as! [Dictionary<String,String>]
+                    var works: [Painting] = []
+                    for painting in paintings{
+                        works.append(Painting(title: painting["title"]!, info: painting["info"]!, imageUrl: painting["image"]!))
+                    }
+                    artists.append(Artist(name: jsonArtist["name"]! as! String, bio: jsonArtist["bio"]! as! String, imageUrl: jsonArtist["image"]! as! String, works: works))
+                }
+              }
+          } catch {
+               // handle error
+            print("SHIT HAPPENDED")
+          }
+    }
+    return artists
 }

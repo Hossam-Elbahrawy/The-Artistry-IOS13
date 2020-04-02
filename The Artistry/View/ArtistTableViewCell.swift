@@ -15,10 +15,13 @@ class ArtistTableViewCell: UITableViewCell {
     @IBOutlet weak var artistName: UILabel!
     @IBOutlet weak var artistBio: UITextView!
     
-  func  setArtist(artist: Artist){
+    func  setArtist(artist: Artist){
+        
         artistName.text = artist.name
-    let imageUrl =  URL(string: artist.imageUrl)
-    artistImage.kf.setImage(with: imageUrl,placeholder:UIImage(named: "placeholderImage"))
         artistBio.text = artist.bio
+        artistImage.kf.indicatorType = .activity
+        
+        let imageUrl =  URL(string: artist.imageUrl)
+        artistImage.kf.setImage(with: imageUrl)
     }
 }

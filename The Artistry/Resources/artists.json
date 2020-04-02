@@ -22,7 +22,7 @@
         {
             "name" : "Vincent van Gogh",
             "bio" : "Vincent Willem van Gogh (30 March 1853 – 29 July 1890) was a Dutch post-Impressionist painter whose work had far-reaching influence on 20th-century art.",
-            "image" : "1",
+            "image" : "https://media.overstockart.com/optimized/cache/data/product_images/VG3345-1000x1000.jpg",
             "works" : [
                 {"title" : "The Starry Night",
                     "image" : "VanGogh1",
@@ -41,7 +41,7 @@
         {
             "name" : "Frida Kahlo",
             "bio" : "Frida Kahlo de Rivera (July 6, 1907 – July 13, 1954), born Magdalena Carmen Frieda Kahlo y Calderón, was a Mexican painter known for her self-portraits.",
-            "image" : "2",
+            "image" : "https://www.fridakahlo.org/images/frida-photo.jpg",
             "works" : [
                 {"title" : "Roots",
                     "image" : "Frida1",
@@ -60,7 +60,7 @@
         {
             "name" : "Georgia O'Keeffe",
             "bio" : "Georgia Totto O'Keeffe (November 15, 1887 – March 6, 1986) was an American artist. She is best known for her paintings of enlarged flowers, New York skyscrapers, and New Mexico landscapes. O'Keeffe has been recognized as the 'Mother of American modernism'.",
-            "image" : "3",
+            "image" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-517323730-1565187892.jpg?crop=1.00xw:0.797xh;0,0&resize=640:*",
             "works" : [
                 {"title" : "Oriental Poppies",
                     "image" : "Georgia1",
