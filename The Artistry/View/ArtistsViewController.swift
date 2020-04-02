@@ -16,8 +16,6 @@ class ArtistsViewController: UITableViewController{
         super.viewDidLoad()
         print("In Artists Screen")
         artists = getArtists()
-//        artists =  parseJSON()
-        print(artists.count)
         
     }
     
