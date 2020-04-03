@@ -1,4 +1,6 @@
- <img src="Documentation/Bahrawy.png" alt="Logo" height="500px">
+ 
+ <img src="Documentation/Bahrawy.png" alt="Logo" height="500px" margin="auto">
+ 
 # The Artistry 
 
 ## Introduction
@@ -8,7 +10,7 @@ Built with IOS 13 & swift 5 using MVC Archticure.
 ## To-Do
 - [x] Launch Screen
 - [x] Home Screen
-- [] Details Screen
+- [x] Details Screen
 
 
 Support

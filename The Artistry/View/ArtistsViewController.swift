@@ -33,6 +33,21 @@ class ArtistsViewController: UITableViewController{
               
               return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "ArtistToPainting"{
+            let destViewController = segue.destination as! PaintingsViewVontroller
+            destViewController.artist = sender as? Artist
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let artist = artists[indexPath.row]
+        performSegue(withIdentifier: "ArtistToPainting", sender: artist)
+        
+    }
 
 }
 

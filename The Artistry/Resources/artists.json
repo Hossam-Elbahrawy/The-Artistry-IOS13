@@ -9,7 +9,7 @@
                     "image" : "https://i1.wp.com/dreamingsophiabook.com/wp-content/uploads/2017/12/Guernica-1.jpg?resize=640%2C235",
                     "info" : "Guernica is a mural-sized oil painting on canvas by Spanish artist Pablo Picasso completed by June 1937. The painting, which uses a palette of gray, black, and white, is regarded by many art critics as one of the most moving and powerful anti-war paintings in history. Standing at 3.49 metres (11 ft 5 in) tall and 7.76 metres (25 ft 6 in) wide, the large mural shows the suffering of people, animals, and buildings wrenched by violence and chaos." },
                 {"title" : "The Weeping Woman",
-                    "image" : "Picasso2",
+                    "image" : "https://painting-planet.com/images/9/image293.jpg",
                     "info" : "The Weeping Woman, (60 х 49 cm, 23 ⅝ х 19 ¼ inches) is an oil on canvas painted by Pablo Picasso in France in 1937. Picasso was intrigued with the subject, and revisited the theme numerous times that year. This painting was the final and most elaborate of the series. It has been in the collection of the Tate in London since 1987, and is on exhibition at the Tate Modern, London." },
                 {"title" : "L'Homme aux cartes (Card Player)",
                     "image" : "Picasso3",
@@ -79,7 +79,7 @@
         {
             "name" : "Andy Warhol",
             "bio" : "Andy Warhol (August 6, 1928 – February 22, 1987), born Andrew Warhola, was an American artist who was a leading figure in the visual art movement known as pop art.",
-            "image" : "4",
+            "image" : "https://www.biography.com/.image/t_share/MTE5NDg0MDU1MTYxNzY3NDM5/andy-warhol-9523875-1-402.jpg",
             "works" : [
                 {"title" : "Marilyn Diptych",
                     "image" : "Andy1",
@@ -98,10 +98,10 @@
         {
             "name" : "Leonardo da Vinci",
             "bio" : "Leonardo di ser Piero da Vinci, more commonly Leonardo da Vinci (15 April 1452 – 2 May 1519), was an Italian polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of paleontology, ichnology, and architecture, and is widely considered one of the greatest painters of all time.",
-            "image" : "5",
+            "image" : "https://www.nationalgeographic.com/content/dam/news/2017/11/2/book-talk-leonardo-da-vinci/01-leonardo-da-vinci-book-talk.ngsversion.1509769828670.adapt.1900.1.jpg",
             "works" : [
                 {"title" : "Mona Lisa",
-                    "image" : "Leonardo1",
+                    "image" : "https://s31991.pcdn.co/wp-content/uploads/2019/02/Mona_Lisa.jpg.optimal.jpg",
                     "info" : "The Mona Lisa is a half-length portrait of a woman by the Italian artist Leonardo da Vinci, which has been acclaimed as 'the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world'"},
                 {"title" : "The Last Supper",
                     "image" : "Leonardo2",
@@ -117,7 +117,7 @@
         {
             "name" : "Rembrandt",
             "bio" : "Rembrandt Harmenszoon van Rijn (15 July 1606 – 4 October 1669) was a Dutch painter and etcher. He is generally considered one of the greatest painters and printmakers in European art and the most important in Dutch history.",
-            "image" : "6",
+            "image" : "https://www.rembrandtpaintings.com/images/rembrandt.jpg",
             "works" : [
                 {"title" : "Belshazzar's Feast",
                     "image" : "Rembrandt1",

@@ -15,6 +15,7 @@ class ArtistTableViewCell: UITableViewCell {
     @IBOutlet weak var artistName: UILabel!
     @IBOutlet weak var artistBio: UITextView!
     
+  
     func  setArtist(artist: Artist){
         
         artistName.text = artist.name
@@ -24,4 +25,5 @@ class ArtistTableViewCell: UITableViewCell {
         let imageUrl =  URL(string: artist.imageUrl)
         artistImage.kf.setImage(with: imageUrl)
     }
+
 }

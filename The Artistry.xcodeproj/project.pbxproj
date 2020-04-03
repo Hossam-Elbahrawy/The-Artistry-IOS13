@@ -11,6 +11,7 @@
 		BF08C046243004CC00E2C9DF /* PaintingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */; };
 		BF18F7412435203E00B6236F /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF18F7402435203E00B6236F /* ArtistTableViewCell.swift */; };
 		BF18F7432435277400B6236F /* ArtistsContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF18F7422435277400B6236F /* ArtistsContoller.swift */; };
+		BF46E8E62435AD5B00B5E020 /* PaintingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF46E8E52435AD5B00B5E020 /* PaintingsController.swift */; };
 		BF62FC92242FC3FE008D000C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62FC91242FC3FE008D000C /* AppDelegate.swift */; };
 		BF62FC94242FC3FE008D000C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF62FC93242FC3FE008D000C /* SceneDelegate.swift */; };
 		BF62FC99242FC3FE008D000C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62FC97242FC3FE008D000C /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		BF7C8A8F242FD5C0002D23FF /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C8A8E242FD5C0002D23FF /* artists.json */; };
 		BF7C8A91242FF8C1002D23FF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C8A90242FF8C1002D23FF /* Artist.swift */; };
 		BF7C8A93242FF958002D23FF /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C8A92242FF958002D23FF /* Painting.swift */; };
+		BFC5DD0C24361526007B411C /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5DD0B24361526007B411C /* PaintingTableViewCell.swift */; };
 		D97AFC8D2E7393B06E516BDC /* Pods_The_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B46C92F5DE7C8F655A65E4 /* Pods_The_Artistry.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,7 @@
 		BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingsViewController.swift; sourceTree = "<group>"; };
 		BF18F7402435203E00B6236F /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 		BF18F7422435277400B6236F /* ArtistsContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArtistsContoller.swift; path = "The Artistry/View/ArtistsContoller.swift"; sourceTree = SOURCE_ROOT; };
+		BF46E8E52435AD5B00B5E020 /* PaintingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaintingsController.swift; path = "The Artistry/View/PaintingsController.swift"; sourceTree = SOURCE_ROOT; };
 		BF62FC8E242FC3FE008D000C /* The Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Artistry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF62FC91242FC3FE008D000C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF62FC93242FC3FE008D000C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 		BF7C8A8E242FD5C0002D23FF /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
 		BF7C8A90242FF8C1002D23FF /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		BF7C8A92242FF958002D23FF /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		BFC5DD0B24361526007B411C /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
 		F5B46C92F5DE7C8F655A65E4 /* Pods_The_Artistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Artistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +133,7 @@
 				BF08C0432430040100E2C9DF /* ArtistsViewController.swift */,
 				BF08C045243004CC00E2C9DF /* PaintingsViewController.swift */,
 				BF18F7402435203E00B6236F /* ArtistTableViewCell.swift */,
+				BFC5DD0B24361526007B411C /* PaintingTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				BF18F7422435277400B6236F /* ArtistsContoller.swift */,
+				BF46E8E52435AD5B00B5E020 /* PaintingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,6 +278,8 @@
 				BF7C8A91242FF8C1002D23FF /* Artist.swift in Sources */,
 				BF18F7432435277400B6236F /* ArtistsContoller.swift in Sources */,
 				BF62FC94242FC3FE008D000C /* SceneDelegate.swift in Sources */,
+				BFC5DD0C24361526007B411C /* PaintingTableViewCell.swift in Sources */,
+				BF46E8E62435AD5B00B5E020 /* PaintingsController.swift in Sources */,
 				BF18F7412435203E00B6236F /* ArtistTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
