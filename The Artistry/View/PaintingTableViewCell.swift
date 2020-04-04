@@ -22,7 +22,7 @@ class PaintingTableViewCell: UITableViewCell{
         
         PaintingImage.kf.indicatorType = .activity
         PaintingImage.kf.setImage(with: imageUrl)
-        self.artistName.text = artistName
-        PaintaingTitle.text = "By: \(painting.title)"
+        self.artistName.text =  "By: \(artistName)"
+        PaintaingTitle.text = painting.title
     }
 }
