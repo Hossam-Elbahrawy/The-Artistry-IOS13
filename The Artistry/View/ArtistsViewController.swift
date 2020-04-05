@@ -26,12 +26,12 @@ class ArtistsViewController: UITableViewController{
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> ArtistTableViewCell {
-          let artist = artists[indexPath.row]
-              
-              let cell = tableView.dequeueReusableCell(withIdentifier: "artistCell") as! ArtistTableViewCell
-              cell.setArtist(artist: artist)
-              
-              return cell
+        let artist = artists[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "artistCell") as! ArtistTableViewCell
+        cell.setArtist(artist: artist)
+        
+        return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -48,6 +48,6 @@ class ArtistsViewController: UITableViewController{
         performSegue(withIdentifier: "ArtistToPainting", sender: artist)
         
     }
-
+    
 }
 

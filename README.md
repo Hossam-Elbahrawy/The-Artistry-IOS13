@@ -1,7 +1,8 @@
- 
- <img src="Documentation/Bahrawy.png" alt="Logo" height="500px" margin="auto">
- 
 # The Artistry 
+
+ <img src="Documentation/the_artistry.gif" alt="Logo" height="400px" width="700">
+ 
+
 
 ## Introduction
 The Artistry is a mobile application that contains information about famous artists and their paintings. 
